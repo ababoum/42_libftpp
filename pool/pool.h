@@ -69,7 +69,7 @@ public:
         {
             if (m_pool[i] == nullptr)
             {
-                m_pool[i] = new TType(std::forward<TArgs...>(p_args...));
+                m_pool[i] = new TType(std::forward<TArgs>(p_args)...);
                 return object(m_pool[i]);
             }
         }

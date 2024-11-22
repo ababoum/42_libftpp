@@ -8,6 +8,4 @@
 #include "pool.h"
 #include "data_buffer.h"
 
-
-
 #endif // DATA_STRUCTURES_HPP
